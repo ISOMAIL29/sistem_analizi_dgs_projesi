@@ -1,9 +1,10 @@
 # dgs_app
+<img width="472" height="1024" alt="WhatsApp Image 2026-05-24 at 21 55 17 (1)" src="https://github.com/user-attachments/assets/90afa689-5919-42e6-af3d-0d6797015b5e" />
+<img width="472" height="1024" alt="WhatsApp Image 2026-05-24 at 21 55 17" src="https://github.com/user-attachments/assets/3bf0460c-b909-49b2-b2c8-63c8820407ed" />
+
 <img width="472" height="1024" alt="WhatsApp Image 2026-05-24 at 21 55 16 (1)" src="https://github.com/user-attachments/assets/26cc752f-cf97-48c9-961f-8a68eb161e3d" />
 <img width="472" height="1024" alt="WhatsApp Image 2026-05-24 at 21 55 16 (2)" src="https://github.com/user-attachments/assets/47d31d32-2042-4db4-bca0-ad7574e74f98" />
 <img width="472" height="1024" alt="WhatsApp Image 2026-05-24 at 21 55 16" src="https://github.com/user-attachments/assets/1f7a0675-2a05-4066-a18f-f8e3d5ea37d2" />
-<img width="472" height="1024" alt="WhatsApp Image 2026-05-24 at 21 55 17 (1)" src="https://github.com/user-attachments/assets/90afa689-5919-42e6-af3d-0d6797015b5e" />
-<img width="472" height="1024" alt="WhatsApp Image 2026-05-24 at 21 55 17" src="https://github.com/user-attachments/assets/3bf0460c-b909-49b2-b2c8-63c8820407ed" />
 
 
 A new Flutter project.
