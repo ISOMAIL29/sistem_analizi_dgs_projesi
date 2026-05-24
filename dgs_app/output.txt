@@ -1,0 +1,18 @@
+YAPAY ZEKÂ DESTEKLİ 
+DGS MATEMATİK SORU BANKASI
+ÖZET
+Bu bildiri, DGS'ye hazırlanan üniversite öğrencileri için geliştirilen yapay zeka destekli bir mobil soru bankası uygulamasını tanıtmaktadır. Uygulama, statik soru bankalarının yetersizliğine çözüm olarak anlık ve sınırsız soru üretmektedir. Flutter ile geliştirilen Android arayüzü ve FastAPI ile kurulan arka uç mimarisi sayesinde sistem, yapay zeka API'si ile entegre çalışır. Öğrenciler; sınırsız soru çözebilir, detaylı analizlerini görebilir, deneme ve kişiye özel karma testler yapabilir. Ayrıca soruları PDF olarak indirebilirler. Üretilen her yeni soru veri tabanına kaydedilerek uygulamanın kendi organik soru havuzu oluşturulur ve maliyetler optimize edilir.
+GİRİŞ
+DGS'ye hazırlanan öğrenciler için farklı soru tiplerini çözmek başarıyı doğrudan etkiler. Ancak mevcut kitaplar ve dijital platformlar sınırlı sayıda soru sunar. Bu durum, öğrencilerin bir süre sonra aynı soruları tekrar etmesine yol açar. Yapay zeka teknolojileri, kurallara bağlı olarak anlık ve sınırsız soru üretimi sağlayarak bu sorunu çözer. Bu proje, Android cihazlar için yapay zeka tabanlı dinamik bir soru bankası geliştirerek sınava hazırlık sürecindeki "kaynak tükenmesi" problemini ortadan kaldırmayı hedeflemektedir.
+AMAÇ
+Projenin amacı, DGS'ye hazırlanan öğrenciler için kapsamlı ve akıllı bir mobil eğitim platformu geliştirmektir. Alt hedefler şunlardır:
+Flutter ile kullanıcı dostu bir Android arayüzü sunmak.
+Yapay zekâ entegrasyonu ile öğrencilere sınırsız ve özgün soru çözme imkanı tanımak.
+Kullanıcıların çözdüğü soruların detaylı sonuç analizlerini sunmak.
+Gerçek sınav deneyimi için deneme sınavları ve eksiklere yönelik kişiye özel karma testler oluşturmak.
+Konu tekrarları yapılabilmesini ve soruların cihazlara PDF olarak aktarılmasını sağlamak.
+Yapay zekanın ürettiği soruları veri tabanına kaydederek uygulamanın kendi organik soru havuzunu oluşturmak ve API maliyetlerini düşürmek.
+YÖNTEM
+Uygulama, yüksek performans için katmanlı bir mimariyle tasarlanmıştır. Kullanıcı arayüzü, Android cihazlara uygun olarak Flutter ile geliştirilmiştir. İstemciden gelen soru talepleri, arka uçta bulunan hızlı ve asenkron çalışan FastAPI sunucusuna iletilir.
+FastAPI, talebi işleyip yapay zeka API'sine gönderir. Yapay zeka, DGS müfredatına uygun özgün bir soru, şıklar ve çözüm adımları üretir.
+Üretilen bu yeni sorular kullanıcıya sunulurken aynı zamanda uygulamanın veri tabanına kaydedilir. Böylece sistem kendi soru bankasını oluşturur ve ilerleyen süreçte API maliyetleri düşürülür. PDF oluşturma ve dışa aktarma işlemleri ise doğrudan istemci tarafında, cihazın yerel depolama alanı kullanılarak gerçekleştirilir.
